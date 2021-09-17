@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-tools/Pods-tools-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/RTRootNavigationController/RTRootNavigationController.framework
+${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework
+${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework
+${BUILT_PRODUCTS_DIR}/YYText/YYText.framework

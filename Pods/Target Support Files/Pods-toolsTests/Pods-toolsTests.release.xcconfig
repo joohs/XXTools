@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager" "${PODS_CONFIGURATION_BUILD_DIR}/RTRootNavigationController" "${PODS_CONFIGURATION_BUILD_DIR}/SAMKeychain" "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/YYCategories" "${PODS_CONFIGURATION_BUILD_DIR}/YYModel" "${PODS_CONFIGURATION_BUILD_DIR}/YYText"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager/IQKeyboardManager.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/RTRootNavigationController/RTRootNavigationController.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SAMKeychain/SAMKeychain.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD/SVProgressHUD.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YYCategories/YYCategories.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YYModel/YYModel.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/YYText/YYText.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -l"z" -framework "AFNetworking" -framework "Accelerate" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreImage" -framework "CoreText" -framework "Foundation" -framework "IQKeyboardManager" -framework "ImageIO" -framework "MobileCoreServices" -framework "QuartzCore" -framework "RTRootNavigationController" -framework "SAMKeychain" -framework "SVProgressHUD" -framework "Security" -framework "UIKit" -framework "YYCategories" -framework "YYModel" -framework "YYText"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
