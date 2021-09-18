@@ -132,6 +132,7 @@
 		FC8724A026F436210010EDCE /* XXTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXTextField.m; sourceTree = "<group>"; };
 		FC8724A226F4C7C30010EDCE /* XXBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXBaseViewController.h; sourceTree = "<group>"; };
 		FC8724A326F4C7C30010EDCE /* XXBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXBaseViewController.m; sourceTree = "<group>"; };
+		FC8724A626F57A840010EDCE /* XXTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXTools.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,9 +211,7 @@
 		FC87240226F432210010EDCE /* XXTools */ = {
 			isa = PBXGroup;
 			children = (
-				FC87247326F4358E0010EDCE /* Category */,
-				FC87243826F4358D0010EDCE /* Tools */,
-				FC87245326F4358D0010EDCE /* Extends */,
+				FC8724A526F579CD0010EDCE /* XXTools */,
 				FC87240326F432210010EDCE /* AppDelegate.h */,
 				FC87240426F432210010EDCE /* AppDelegate.m */,
 				FC87240926F432210010EDCE /* ViewController.h */,
@@ -258,11 +257,11 @@
 				FC87244C26F4358D0010EDCE /* SandBoxTool.h */,
 				FC87243E26F4358D0010EDCE /* SandBoxTool.m */,
 				FC87244026F4358D0010EDCE /* TransformTool.h */,
+				FC87244A26F4358D0010EDCE /* TransformTool.m */,
+				FC87244926F4358D0010EDCE /* MainScreenConfig.h */,
 				FC87244126F4358D0010EDCE /* MainScreenConfig.m */,
 				FC87245126F4358D0010EDCE /* UserDefaultTool.h */,
 				FC87244326F4358D0010EDCE /* UserDefaultTool.m */,
-				FC87244926F4358D0010EDCE /* MainScreenConfig.h */,
-				FC87244A26F4358D0010EDCE /* TransformTool.m */,
 				FC87243F26F4358D0010EDCE /* CheckTool.h */,
 				FC87244B26F4358D0010EDCE /* CheckTool.m */,
 				FC87244526F4358D0010EDCE /* GravityInductionTool.h */,
@@ -309,6 +308,17 @@
 				FC87247F26F4358E0010EDCE /* UIView+Extension.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		FC8724A526F579CD0010EDCE /* XXTools */ = {
+			isa = PBXGroup;
+			children = (
+				FC87247326F4358E0010EDCE /* Category */,
+				FC87243826F4358D0010EDCE /* Tools */,
+				FC87245326F4358D0010EDCE /* Extends */,
+				FC8724A626F57A840010EDCE /* XXTools.h */,
+			);
+			path = XXTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
