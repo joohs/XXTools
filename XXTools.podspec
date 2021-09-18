@@ -51,7 +51,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "FrankLin" => "freedom@frankLin.com" }
+  spec.author             = { "FrankLin" => "764074010@qq.com" }
   # Or just: spec.author    = "FrankLin"
   # spec.authors            = { "FrankLin" => "freedom@frankLin.com" }
   # spec.social_media_url   = "https://twitter.com/FrankLin"
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/joohs/XXTools.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/joohs/XXTools", :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

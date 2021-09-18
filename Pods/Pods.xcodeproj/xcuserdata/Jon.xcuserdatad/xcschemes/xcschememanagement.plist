@@ -18,21 +18,21 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>Pods-tools-toolsUITests.xcscheme</key>
+		<key>Pods-XXTools-XXToolsUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>Pods-tools.xcscheme</key>
+		<key>Pods-XXTools.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>Pods-toolsTests.xcscheme</key>
+		<key>Pods-XXToolsTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

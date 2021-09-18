@@ -1,4 +1,4 @@
-${PODS_ROOT}/Target Support Files/Pods-tools-toolsUITests/Pods-tools-toolsUITests-frameworks.sh
+${PODS_ROOT}/Target Support Files/Pods-XXTools-XXToolsUITests/Pods-XXTools-XXToolsUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
 ${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
 ${BUILT_PRODUCTS_DIR}/RTRootNavigationController/RTRootNavigationController.framework
