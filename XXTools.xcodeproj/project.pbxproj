@@ -70,7 +70,7 @@
 		B0E1644D9353A054A0ED2343 /* Pods-tools-toolsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tools-toolsUITests.release.xcconfig"; path = "Target Support Files/Pods-tools-toolsUITests/Pods-tools-toolsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B6F2B11BC377679C867D0A20 /* Pods-tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tools.release.xcconfig"; path = "Target Support Files/Pods-tools/Pods-tools.release.xcconfig"; sourceTree = "<group>"; };
 		D726DD1C68C436BCFE6600BA /* Pods_toolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_toolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC87240026F432210010EDCE /* tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC87240026F432210010EDCE /* XXTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC87240326F432210010EDCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC87240426F432210010EDCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FC87240926F432210010EDCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -80,10 +80,10 @@
 		FC87241226F432230010EDCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC87241426F432230010EDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC87241526F432230010EDCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FC87241B26F432240010EDCE /* toolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC87241B26F432240010EDCE /* XXToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC87241F26F432240010EDCE /* toolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = toolsTests.m; sourceTree = "<group>"; };
 		FC87242126F432240010EDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC87242626F432240010EDCE /* toolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC87242626F432240010EDCE /* XXToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC87242A26F432240010EDCE /* toolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = toolsUITests.m; sourceTree = "<group>"; };
 		FC87242C26F432240010EDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC87243926F4358D0010EDCE /* ImageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTool.m; sourceTree = "<group>"; };
@@ -188,7 +188,7 @@
 		FC8723F726F432210010EDCE = {
 			isa = PBXGroup;
 			children = (
-				FC87240226F432210010EDCE /* tools */,
+				FC87240226F432210010EDCE /* XXTools */,
 				FC87241E26F432240010EDCE /* toolsTests */,
 				FC87242926F432240010EDCE /* toolsUITests */,
 				FC87240126F432210010EDCE /* Products */,
@@ -200,14 +200,14 @@
 		FC87240126F432210010EDCE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC87240026F432210010EDCE /* tools.app */,
-				FC87241B26F432240010EDCE /* toolsTests.xctest */,
-				FC87242626F432240010EDCE /* toolsUITests.xctest */,
+				FC87240026F432210010EDCE /* XXTools.app */,
+				FC87241B26F432240010EDCE /* XXToolsTests.xctest */,
+				FC87242626F432240010EDCE /* XXToolsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC87240226F432210010EDCE /* tools */ = {
+		FC87240226F432210010EDCE /* XXTools */ = {
 			isa = PBXGroup;
 			children = (
 				FC87247326F4358E0010EDCE /* Category */,
@@ -223,7 +223,7 @@
 				FC87241426F432230010EDCE /* Info.plist */,
 				FC87241526F432230010EDCE /* main.m */,
 			);
-			path = tools;
+			path = XXTools;
 			sourceTree = "<group>";
 		};
 		FC87241E26F432240010EDCE /* toolsTests */ = {
@@ -314,9 +314,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC8723FF26F432210010EDCE /* tools */ = {
+		FC8723FF26F432210010EDCE /* XXTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC87242F26F432240010EDCE /* Build configuration list for PBXNativeTarget "tools" */;
+			buildConfigurationList = FC87242F26F432240010EDCE /* Build configuration list for PBXNativeTarget "XXTools" */;
 			buildPhases = (
 				C5714B225CF49CCB2A67889E /* [CP] Check Pods Manifest.lock */,
 				FC8723FC26F432210010EDCE /* Sources */,
@@ -328,14 +328,14 @@
 			);
 			dependencies = (
 			);
-			name = tools;
+			name = XXTools;
 			productName = tools;
-			productReference = FC87240026F432210010EDCE /* tools.app */;
+			productReference = FC87240026F432210010EDCE /* XXTools.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FC87241A26F432240010EDCE /* toolsTests */ = {
+		FC87241A26F432240010EDCE /* XXToolsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC87243226F432240010EDCE /* Build configuration list for PBXNativeTarget "toolsTests" */;
+			buildConfigurationList = FC87243226F432240010EDCE /* Build configuration list for PBXNativeTarget "XXToolsTests" */;
 			buildPhases = (
 				448B993B0807CE02743FCEF3 /* [CP] Check Pods Manifest.lock */,
 				FC87241726F432240010EDCE /* Sources */,
@@ -347,14 +347,14 @@
 			dependencies = (
 				FC87241D26F432240010EDCE /* PBXTargetDependency */,
 			);
-			name = toolsTests;
+			name = XXToolsTests;
 			productName = toolsTests;
-			productReference = FC87241B26F432240010EDCE /* toolsTests.xctest */;
+			productReference = FC87241B26F432240010EDCE /* XXToolsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FC87242526F432240010EDCE /* toolsUITests */ = {
+		FC87242526F432240010EDCE /* XXToolsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC87243526F432240010EDCE /* Build configuration list for PBXNativeTarget "toolsUITests" */;
+			buildConfigurationList = FC87243526F432240010EDCE /* Build configuration list for PBXNativeTarget "XXToolsUITests" */;
 			buildPhases = (
 				18B29A7963A0287E2F6B3FA1 /* [CP] Check Pods Manifest.lock */,
 				FC87242226F432240010EDCE /* Sources */,
@@ -367,9 +367,9 @@
 			dependencies = (
 				FC87242826F432240010EDCE /* PBXTargetDependency */,
 			);
-			name = toolsUITests;
+			name = XXToolsUITests;
 			productName = toolsUITests;
-			productReference = FC87242626F432240010EDCE /* toolsUITests.xctest */;
+			productReference = FC87242626F432240010EDCE /* XXToolsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -393,7 +393,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FC8723FB26F432210010EDCE /* Build configuration list for PBXProject "tools" */;
+			buildConfigurationList = FC8723FB26F432210010EDCE /* Build configuration list for PBXProject "XXTools" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -406,9 +406,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC8723FF26F432210010EDCE /* tools */,
-				FC87241A26F432240010EDCE /* toolsTests */,
-				FC87242526F432240010EDCE /* toolsUITests */,
+				FC8723FF26F432210010EDCE /* XXTools */,
+				FC87241A26F432240010EDCE /* XXToolsTests */,
+				FC87242526F432240010EDCE /* XXToolsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -598,12 +598,12 @@
 /* Begin PBXTargetDependency section */
 		FC87241D26F432240010EDCE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FC8723FF26F432210010EDCE /* tools */;
+			target = FC8723FF26F432210010EDCE /* XXTools */;
 			targetProxy = FC87241C26F432240010EDCE /* PBXContainerItemProxy */;
 		};
 		FC87242826F432240010EDCE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FC8723FF26F432210010EDCE /* tools */;
+			target = FC8723FF26F432210010EDCE /* XXTools */;
 			targetProxy = FC87242726F432240010EDCE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -748,7 +748,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8CUK24KSS;
-				INFOPLIST_FILE = tools/Info.plist;
+				INFOPLIST_FILE = XXTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -767,7 +767,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C8CUK24KSS;
-				INFOPLIST_FILE = tools/Info.plist;
+				INFOPLIST_FILE = XXTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -795,7 +795,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.qh.toolsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tools.app/tools";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XXTools.app/XXTools";
 			};
 			name = Debug;
 		};
@@ -816,7 +816,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.qh.toolsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tools.app/tools";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XXTools.app/XXTools";
 			};
 			name = Release;
 		};
@@ -861,7 +861,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC8723FB26F432210010EDCE /* Build configuration list for PBXProject "tools" */ = {
+		FC8723FB26F432210010EDCE /* Build configuration list for PBXProject "XXTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC87242D26F432240010EDCE /* Debug */,
@@ -870,7 +870,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC87242F26F432240010EDCE /* Build configuration list for PBXNativeTarget "tools" */ = {
+		FC87242F26F432240010EDCE /* Build configuration list for PBXNativeTarget "XXTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC87243026F432240010EDCE /* Debug */,
@@ -879,7 +879,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC87243226F432240010EDCE /* Build configuration list for PBXNativeTarget "toolsTests" */ = {
+		FC87243226F432240010EDCE /* Build configuration list for PBXNativeTarget "XXToolsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC87243326F432240010EDCE /* Debug */,
@@ -888,7 +888,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC87243526F432240010EDCE /* Build configuration list for PBXNativeTarget "toolsUITests" */ = {
+		FC87243526F432240010EDCE /* Build configuration list for PBXNativeTarget "XXToolsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC87243626F432240010EDCE /* Debug */,
