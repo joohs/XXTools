@@ -1,3 +1,6 @@
+# 更新版本
+# => pod trunk push XXTools.podspec 
+
 #
 #  Be sure to run `pod spec lint XXTools.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
@@ -16,7 +19,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XXTools"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "提供一些方便的方法"
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "XXTools/XXTools/*.{h,m}"
+  spec.source_files  = "XXTools/XXTools/*.h", "XXTools/XXTools/Category/*.{h,m}", "XXTools/XXTools/Tools/*.{h,m}", "XXTools/XXTools/Extends/*.{h,m}"
   # spec.exclude_files = "XXTools/*.{h,m}"
 
   # spec.public_header_files = "Classes/**/*.h"
