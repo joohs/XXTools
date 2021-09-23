@@ -211,7 +211,6 @@
 				FC87240C26F432210010EDCE /* Main.storyboard */,
 				FC87240F26F432230010EDCE /* Assets.xcassets */,
 				FC87241126F432230010EDCE /* LaunchScreen.storyboard */,
-				FC87241426F432230010EDCE /* Info.plist */,
 				FC87241526F432230010EDCE /* main.m */,
 			);
 			path = XXTools;
@@ -291,6 +290,7 @@
 				FC87243826F4358D0010EDCE /* Tools */,
 				FC87245326F4358D0010EDCE /* Extends */,
 				FC8724A626F57A840010EDCE /* XXTools.h */,
+				FC87241426F432230010EDCE /* Info.plist */,
 			);
 			path = XXTools;
 			sourceTree = "<group>";
