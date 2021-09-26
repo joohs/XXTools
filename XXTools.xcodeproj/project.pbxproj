@@ -203,7 +203,7 @@
 		FC87240226F432210010EDCE /* XXTools */ = {
 			isa = PBXGroup;
 			children = (
-				FC8724A526F579CD0010EDCE /* XXTools */,
+				FC8724A526F579CD0010EDCE /* Classes */,
 				FC87240326F432210010EDCE /* AppDelegate.h */,
 				FC87240426F432210010EDCE /* AppDelegate.m */,
 				FC87240926F432210010EDCE /* ViewController.h */,
@@ -212,6 +212,7 @@
 				FC87240F26F432230010EDCE /* Assets.xcassets */,
 				FC87241126F432230010EDCE /* LaunchScreen.storyboard */,
 				FC87241526F432230010EDCE /* main.m */,
+				FC87241426F432230010EDCE /* Info.plist */,
 			);
 			path = XXTools;
 			sourceTree = "<group>";
@@ -283,16 +284,15 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		FC8724A526F579CD0010EDCE /* XXTools */ = {
+		FC8724A526F579CD0010EDCE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				FC87247326F4358E0010EDCE /* Category */,
 				FC87243826F4358D0010EDCE /* Tools */,
 				FC87245326F4358D0010EDCE /* Extends */,
 				FC8724A626F57A840010EDCE /* XXTools.h */,
-				FC87241426F432230010EDCE /* Info.plist */,
 			);
-			path = XXTools;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

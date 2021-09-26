@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "XXTools"
-  spec.version      = "1.0.6"
+  spec.version      = "1.0.7"
   spec.summary      = "提供一些方便的方法"
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "XXTools/XXTools/*.h", "XXTools/XXTools/*.plist", "XXTools/XXTools/Category/*.{h,m}", "XXTools/XXTools/Tools/*.{h,m}", "XXTools/XXTools/Extends/*.{h,m}"
+  spec.source_files  = "XXTools/Classes/**/*.{h,m}"
   # spec.exclude_files = "XXTools/*.{h,m}"
 
   # spec.public_header_files = "Classes/**/*.h"
